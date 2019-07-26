@@ -1,0 +1,39 @@
+header {
+    background: white;
+}
+
+#head {
+    float: left;
+    color: white;
+    background: #4aaaa5;
+    padding: 5px 10px;
+}
+
+nav {
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+#me {
+    float: left;
+}
+
+section {
+    background: white;
+    width: 960px;
+    height: 75%;
+    margin: 5 auto 5 auto;
+}
+
+body {
+    background-image: url("../images/memphis-mini.png");
+}
