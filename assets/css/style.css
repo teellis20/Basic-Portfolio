@@ -1,16 +1,41 @@
 header {
     background: white;
+    padding: 30px;
+    margin: 0;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
 }
 
 #head {
     float: left;
     color: white;
     background: #4aaaa5;
-    padding: 5px 10px;
+    padding: 10px 20px;
+    margin-left: 20%;
+    position: relative;;
+}
+
+.top {
+    padding: 10px;
+    align-self: center;
+}
+
+h2 {
+    color: #4aaaa5;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 10px;
+    align-self: center;
 }
 
 nav {
     float: right;
+    margin-right: 20%;
+    position: relative;
 }
 
 ul {
@@ -25,15 +50,52 @@ li {
 
 #me {
     float: left;
+    margin-left: 10px;
+    width: 200px;
+    height: 150px;
 }
 
 section {
+    position: fixed;
     background: white;
     width: 960px;
     height: 75%;
-    margin: 5 auto 5 auto;
+    margin-top: 25px;
+    margin-left: 20%;
 }
 
 body {
-    background-image: url("../images/memphis-mini.png");
+    background-image: url("../images/gravel.png");
+}
+
+figure {
+    margin-left: 40px;
+}
+
+.potatoes {
+    margin-left: 20px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background: #3a7774;
+    color: white;
+    padding: 10px;
+}
+
+img {
+    width: 30%;
+    margin: 5px;
+}
+
+button {
+    color: white;
+    padding: 5px 10px;
+    margin-left: 20px;
+    background: #4aaaa5;
+    border-radius: 4px;
 }
