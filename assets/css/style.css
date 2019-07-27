@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 header {
     background: white;
     padding: 30px;
@@ -7,6 +11,7 @@ header {
 h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 25px;
+    margin: 0;
 }
 
 #head {
@@ -15,7 +20,6 @@ h1{
     background: #4aaaa5;
     padding: 10px 20px;
     margin-left: 20%;
-    position: relative;;
 }
 
 .top {
@@ -38,6 +42,7 @@ nav {
     position: relative;
 }
 
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -46,22 +51,30 @@ ul {
 
 li {
     display: inline;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #me {
     float: left;
     margin-left: 10px;
-    width: 200px;
-    height: 150px;
+    width: 300px;
+    height: 225px;
 }
 
 section {
     position: fixed;
     background: white;
     width: 960px;
-    height: 75%;
     margin-top: 25px;
+    margin-bottom: 50px;
     margin-left: 20%;
+    overflow: scroll;
+    clear: both;
+}
+
+::-webkit-scrollbar {
+    background: transparent;
 }
 
 body {
@@ -70,10 +83,24 @@ body {
 
 figure {
     margin-left: 40px;
+    overflow: scroll;
 }
 
 .potatoes {
     margin-left: 20px;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 200%;
+    color: #777777;
+}
+
+#p2 {
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 200%;
+    margin-top: 10px;
+    margin-left: 5px;
+    color: #777777;
 }
 
 footer {
@@ -82,7 +109,7 @@ footer {
     bottom: 0;
     width: 100%;
     text-align: center;
-    background: #3a7774;
+    background: #666666;
     color: white;
     padding: 10px;
 }
@@ -99,3 +126,17 @@ button {
     background: #4aaaa5;
     border-radius: 4px;
 }
+
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    resize: none;
+    margin-top: 10px
+}
+
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    color: #777777
+}
+
